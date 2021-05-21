@@ -8,7 +8,7 @@ Class Passenger
     Attributes:
         flight : String
         seat selection : String
-    Methods :
+    Methods:
         addFlight()
         removeFlight()
         timeConflict()
@@ -20,8 +20,50 @@ Class Flight
         seat selection : String
         arrival time : String
         departure time : String
-    Methods :
+    Methods:
         addPassenger()
         removePassenger()
         timeConflict()
         ( end of class Flight )
+
+Application 2: A Daycare
+
+Class Daycare
+    Attributes:
+        Total number of children: int
+    Method:
+        addChild()
+        removeChild()
+        maxChildExceeded()
+
+Class Child:
+    Attributes:
+        Sign in time: String
+        Sign out time: String
+        Child Identity: String
+        Dietary Restrictions: String
+    Method:
+        addChild()
+        removeChild()
+
+Class Parent:
+    Attributes:
+        Guardianship of Child: String
+        Phone Number: String
+        Email Address: String
+        Home Address: String
+    Method:
+        addParent()
+        removeParent()
+
+CLass Worker:
+    Attributes:
+        Sign in time: String
+        Sign out time: String
+        Phone Number: String
+        Email Address: String
+        Home Address: String
+        Dietary Restriction: String
+    Method:
+        addWorker()
+        removeWorker()
