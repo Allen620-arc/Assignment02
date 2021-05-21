@@ -8,8 +8,6 @@ Class Passenger
     Attributes:
         flight : String
         seat selection : String
-        arrival time : String
-        departure time : String
     Methods :
         addFlight()
         removeFlight()
