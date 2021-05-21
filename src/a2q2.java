@@ -4,6 +4,7 @@
     Student Number: 11278995
  */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class a2q2 {
@@ -16,13 +17,19 @@ public class a2q2 {
 
         Scanner in = new Scanner(System.in);
         System.out.print(height);
-        int num = Integer.parseInt(in.nextLine());
+        int heightNum = Integer.parseInt(in.nextLine());
+        int counter = 0;
 
-        while (num > 1){
-            if ( num % 2 == 0 )
-                num = num / 2;
-            else
-                num = 3 * num + 1;
+        while (heightNum > 1){
+            if ( heightNum % 2 == 0 ){
+                heightNum = heightNum / 2;
+            }
+            else{
+                heightNum = 3 * heightNum + 1;
+            }
+            int[] heightArray = {heightNum};
+            counter = counter + 1;
         }
+        System.out.print("Number of Jumps: " + counter);
     }
 }
