@@ -24,4 +24,4 @@ Class Flight
         addPassenger()
         removePassenger()
         timeConflict()
-        ( end of class Passenger )
+        ( end of class Flight )
