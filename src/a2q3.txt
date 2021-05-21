@@ -13,3 +13,13 @@ Class Passenger
     Methods :
         timeConflict()
         ( end of class Passenger )
+
+Class Flight
+    Attributes:
+        passenger : String
+        seat selection : String
+        arrival time : String
+        departure time : String
+    Methods :
+        timeConflict()
+        ( end of class Passenger )
