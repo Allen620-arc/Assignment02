@@ -11,6 +11,8 @@ Class Passenger
         arrival time : String
         departure time : String
     Methods :
+        addFlight()
+        removeFlight()
         timeConflict()
         ( end of class Passenger )
 
@@ -21,5 +23,7 @@ Class Flight
         arrival time : String
         departure time : String
     Methods :
+        addPassenger()
+        removePassenger()
         timeConflict()
         ( end of class Passenger )
