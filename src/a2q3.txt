@@ -6,8 +6,9 @@ Application 1: Flight Reservation System
 
 Class Passenger
     Attributes:
-        flight : String
-        seat selection : String
+        flight: String
+        seat selection: String
+        Personal Information: String
     Methods:
         addFlight()
         removeFlight()
@@ -16,10 +17,10 @@ Class Passenger
 
 Class Flight
     Attributes:
-        passenger : String
-        seat selection : String
-        arrival time : String
-        departure time : String
+        passenger: String
+        seat selection: String
+        arrival time: String
+        departure time: String
     Methods:
         addPassenger()
         removePassenger()
@@ -28,7 +29,7 @@ Class Flight
 
 Application 2: A Daycare
 
-Class Daycare
+Class Daycare:
     Attributes:
         Total number of children: int
     Method:
@@ -67,3 +68,30 @@ CLass Worker:
     Method:
         addWorker()
         removeWorker()
+
+Application 3: An Emergency Room
+
+Class Patient:
+    Attributes:
+        Doctor Name: String
+    Method:
+        addPatient()
+        addDoctor()
+        removePatient()
+        removeDoctor()
+
+Class Doctor:
+    Attributes:
+        Patient Name: String
+    Method:
+        addPatient()
+        addDoctor()
+        removePatient()
+        removeDoctor()
+
+Class Bed:
+    Attributes:
+        Patient Name: String
+    Method:
+        addPatient()
+        removePatient()
